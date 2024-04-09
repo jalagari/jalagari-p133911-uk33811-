@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/formseds",
+        "create path (nt:unstructured) /content/dam/formseds/jcr:content",
+        "set properties on /content/dam/formseds/jcr:content\n  set cq:conf{String} to /conf/formseds\n  set jcr:title{String} to \"Forms EDS\"\nend"
+    ]
+}
