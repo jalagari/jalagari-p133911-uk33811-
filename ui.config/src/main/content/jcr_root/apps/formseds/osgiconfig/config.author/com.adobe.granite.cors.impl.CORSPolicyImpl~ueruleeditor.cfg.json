@@ -1,0 +1,35 @@
+{
+  "alloworiginregexp":[
+    "https://283250-452aquachinchilla-stage.adobeio-static.net"
+  ],
+  "allowedpaths":[
+    ".*"
+  ],
+  "supportscredentials":true,
+  "supportedmethods":[
+    "GET",
+    "HEAD",
+    "POST",
+    "PUT",
+    "DELETE",
+    "PATCH"
+  ],
+  "supportedheaders":[
+    "*"
+  ],
+  "exposedheaders":[
+    "Link",
+    "Etag",
+    "Version",
+    "Revision",
+    "Content-MD5",
+    "Location",
+    "Content-Location",
+    "asset-id",
+    "x-resource-id",
+    "x-medialibrary-version",
+    "x-request-id",
+    "X-Max-References-Depth"
+  ],
+  "maxage:Integer":86400
+}
