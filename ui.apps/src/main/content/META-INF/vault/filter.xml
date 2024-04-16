@@ -4,5 +4,6 @@
     <filter root="/apps/formseds/components"/>
     <filter root="/apps/formseds/i18n"/>
     <filter root="/apps/fd/af/themes" mode="merge"/>
+    <filter root="/apps/fd/franklin"/>
 
 </workspaceFilter>
