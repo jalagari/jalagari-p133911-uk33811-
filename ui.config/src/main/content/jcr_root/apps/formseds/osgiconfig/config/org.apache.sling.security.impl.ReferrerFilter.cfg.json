@@ -2,7 +2,10 @@
     "allow.empty": false,
     "allow.hosts": [],
     "allow.hosts.regexp": [
-        "https://.*\\.hlx\\.page:443", "https://.*\\.hlx\\.live:443"
+        "https://.*\\.hlx\\.page:443", 
+        "https://.*\\.hlx\\.live:443",
+        "https://283250-452aquachinchilla-stage.adobeio-static.net",
+        "https://283250-452aquachinchilla-stage.adobeio-static.net:433"
     ],
     "filter.methods": [
       "POST",
