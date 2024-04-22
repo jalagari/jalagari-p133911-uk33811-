@@ -88,6 +88,12 @@
                             <artifactId>core-forms-components-af-core</artifactId>
                             <target>/apps/formseds-vendor-packages/application/install</target>
                         </embedded>
+			<embedded>
+                            <groupId>com.adobe.aem.guides</groupId>
+                            <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
+			    <type>zip</type>
+                            <target>/apps/formseds-vendor-packages/application/install</target>
+                        </embedded>
                                                                 </embeddeds>
                 </configuration>
             </plugin>
@@ -226,6 +232,11 @@
         <dependency>
           <groupId>com.adobe.aem</groupId>
           <artifactId>core-forms-components-af-core</artifactId>
+        </dependency>
+	<dependency>
+          <groupId>com.adobe.aem.guides</groupId>
+          <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
+          <type>zip</type>
         </dependency>
           </dependencies>
 </project>
