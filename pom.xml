@@ -47,6 +47,7 @@
         <vault.password>admin</vault.password>
         <frontend-maven-plugin.version>1.12.0</frontend-maven-plugin.version>
         <core.wcm.components.version>2.23.4</core.wcm.components.version>
+	<wknd-shared.version>2.1.2</wknd-shared.version>
 
         <core.forms.components.version>3.0.6-edsB004</core.forms.components.version>
         <core.forms.components.af.version>3.0.6-edsB004</core.forms.components.af.version>
@@ -565,6 +566,12 @@ Bundle-DocURL:
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>core-forms-components-af-core</artifactId>
                 <version>${core.forms.components.af.version}</version>
+            </dependency>
+	    <dependency>
+                <groupId>com.adobe.aem.guides</groupId>
+                <artifactId>aem-guides-wknd-shared.ui.content</artifactId>
+                <version>${wknd-shared.version}</version>
+                <type>zip</type>
             </dependency>
 
             
