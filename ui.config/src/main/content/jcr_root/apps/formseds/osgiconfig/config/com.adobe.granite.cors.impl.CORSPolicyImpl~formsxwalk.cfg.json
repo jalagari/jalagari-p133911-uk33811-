@@ -1,0 +1,26 @@
+{
+  "supportscredentials":false,
+  "supportedmethods":[
+    "GET",
+    "HEAD",
+    "POST"
+  ],
+  "exposedheaders":[
+    ""
+  ],
+  "maxage:Integer":1800,
+  "alloworiginregexp":[
+    ".*"
+  ],
+  "supportedheaders":[
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers"
+  ],
+  "allowedpaths":[
+    "/adobe/forms/.*"
+  ]
+}
