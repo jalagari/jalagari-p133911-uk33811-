@@ -15,7 +15,7 @@
   from Adobe.
 */-->
 <div class="form"
-     data-sly-use.form="com.adobe.cq.forms.core.components.models.form.FormContainer"
+     data-sly-use.formstructparser="com.adobe.cq.forms.core.components.models.form.FormStructureParser"
      data-aue-type="container"
      data-aue-behavior="component"
      data-aue-model="form"
@@ -24,7 +24,7 @@
     <div>
         <div>
             <pre>
-                <code>${form.formDefinition @ context='unsafe'}</code>
+                <code>${formstructparser.formDefinition @ context='unsafe'}</code>
             </pre>
         </div>
     </div>
