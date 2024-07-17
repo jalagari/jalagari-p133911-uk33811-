@@ -16,7 +16,7 @@
 
 /**
  * Get Country Name
- * @name getFullName Fetches country name
+ * @name getCountryName Fetches country name
  * @return {string}
  */
 function getCountryName() {
@@ -25,7 +25,7 @@ function getCountryName() {
 
 /**
  * Get City Name
- * @name getFullName Fetches city name
+ * @name getCityName Fetches city name
  * @return {string}
  */
 function getCityName() {
