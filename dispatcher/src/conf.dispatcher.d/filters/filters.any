@@ -14,3 +14,6 @@ $include "./default_filters.any"
 
 # Allow Forms Document Services requests
 /0103 { /type "allow" /method '(GET|POST|OPTIONS)' /url "/adobe/forms/*" }
+
+# to allow invoke service functionality (FDM)
+/0104 { /type "allow" /path "/content/*" /selectors '(af)'  /extension '(dermis)' }
