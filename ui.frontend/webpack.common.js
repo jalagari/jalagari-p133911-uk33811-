@@ -12,7 +12,7 @@ const SOURCE_ROOT = __dirname + '/src/main/webpack';
 const resolve = {
     extensions: ['.js', '.ts'],
     plugins: [new TSConfigPathsPlugin({
-        configFile: './tsconfig.json'
+        configFile: './com.day.cq.mailer.DefaultMailService.cfg.json'
     })]
 };
 
