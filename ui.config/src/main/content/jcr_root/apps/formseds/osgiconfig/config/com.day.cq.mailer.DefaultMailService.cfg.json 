@@ -1,0 +1,10 @@
+ {
+  "smtp.password":"aemforms123456789023",
+  "debug.email":false,
+  "smtp.port:Integer":587,
+  "smtp.user":"rlyformsmail@adobe.com",
+  "smtp.ssl":true,
+  "smtp.starttls":false,
+  "from.address":"rlyformsmail@adobe.com",
+  "smtp.host":"authrelay.corp.adobe.com"
+}
