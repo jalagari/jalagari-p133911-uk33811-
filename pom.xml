@@ -50,8 +50,8 @@
 	    <wknd.version>3.2.0</wknd.version>
 	    <wknd-shared.version>3.1.0</wknd-shared.version>
 
-        <core.forms.components.version>3.0.44</core.forms.components.version>
-        <core.forms.components.af.version>3.0.44</core.forms.components.af.version>
+        <core.forms.components.version>3.0.52</core.forms.components.version>
+        <core.forms.components.af.version>3.0.52</core.forms.components.af.version>
         <aem.forms.sdk.api>2023.10.25.00-231200</aem.forms.sdk.api>
         <bnd.version>5.1.2</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

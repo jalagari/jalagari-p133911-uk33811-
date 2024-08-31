@@ -35,6 +35,7 @@
                     <filters>
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
+                        <filter><root>/apps/formsninja</root></filter>
                         <filter><root>/apps/formseds</root></filter>
                         <!-- Common overlay roots -->
                                                 <filter><root>/apps/fd</root></filter>
